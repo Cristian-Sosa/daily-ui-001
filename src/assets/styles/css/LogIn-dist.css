@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap");
+html {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.LogIn {
+  width: 100vw;
+  height: 100vh;
+  padding: 48px 24px 0;
+  font-size: 3rem;
+  background-image: linear-gradient(180deg, rgba(88, 92, 21, 0.48) 0%, rgba(67, 207, 56, 0.16) 48%, rgba(1, 3, 45, 0.64) 100%), url("./src/assets/images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.2rem;
+}
+.LogIn .Logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.LogIn .Logo .Logo_img {
+  width: 1.2em;
+}
+.LogIn .Logo .Logo_brand {
+  font-family: "Allerta Stencil", sans-serif;
+  font-size: 1.1em;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.9);
+}
+.LogIn .LogIn_caption {
+  font-family: "Abel", sans-serif;
+  font-size: 0.9em;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+.LogIn .Form {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1rem;
+  background: rgba(35, 35, 35, 0.7);
+  backdrop-filter: blur(2px);
+  border-radius: 8px;
+}
+.LogIn .Form_btn-ouline {
+  width: 100%;
+  margin: 0.4em 0;
+  padding: 0.8em 0;
+  font-size: 1.6em;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 50px;
+}
+.LogIn .Form_btn-ouline img {
+  width: 1.6em;
+  padding-right: 8px;
+}
+
+/*# sourceMappingURL=LogIn-dist.css.map */
